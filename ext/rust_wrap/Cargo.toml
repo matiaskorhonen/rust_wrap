@@ -1,5 +1,5 @@
 [package]
-name = "hello_rust"
+name = "rust_wrap"
 version = "0.1.0"
 edition = "2021"
 authors = ["Matias Korhonen <me@matiaskorhonen.fi>"]

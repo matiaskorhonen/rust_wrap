@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/hello_rust/version"
+require_relative "lib/rust_wrap/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "hello_rust"
-  spec.version = HelloRust::VERSION
+  spec.name = "rust_wrap"
+  spec.version = RustWrap::VERSION
   spec.authors = ["Matias Korhonen"]
   spec.email = ["me@matiaskorhonen.fi"]
 
@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  spec.extensions = ["ext/hello_rust/Cargo.toml"]
+  spec.extensions = ["ext/rust_wrap/Cargo.toml"]
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"

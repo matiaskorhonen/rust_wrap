@@ -6,7 +6,7 @@ fn hello(subject: String) -> String {
 
 #[magnus::init]
 fn init() -> Result<(), Error> {
-    let module = define_module("HelloRust")?;
+    let module = define_module("RustWrap")?;
     module.define_singleton_method("hello", function!(hello, 1))?;
     Ok(())
 }

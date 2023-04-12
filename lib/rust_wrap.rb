@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "hello_rust/version"
-require_relative "hello_rust/hello_rust"
+require_relative "rust_wrap/version"
+require_relative "rust_wrap/rust_wrap"
 
-module HelloRust
+module RustWrap
   class Error < StandardError; end
   # Your code goes here...
 end

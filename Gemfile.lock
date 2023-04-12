@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hello_rust (0.1.0)
+    rust_wrap (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -29,11 +29,11 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  hello_rust!
   rake (~> 13.0)
   rake-compiler
   rb_sys (~> 0.9.63)
   rspec (~> 3.0)
+  rust_wrap!
 
 BUNDLED WITH
    2.4.12
